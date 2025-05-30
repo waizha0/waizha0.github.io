@@ -1,6 +1,6 @@
 <div align="center">
     <div align="right">
-        简体中文 | <a href="README-EN.md">English</a>
+        简体中文
     </div>
     <h1>waizha0.github.io</h1>
     <p>基于 jekyll 的响应式 Github Pages 个人博客网站</p>
