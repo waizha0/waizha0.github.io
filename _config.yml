@@ -29,6 +29,10 @@ valine:
 
 # jekyll 相关配置
 markdown: kramdown
+kramdown:
+  parse_block_html: false
+  parse_span_html: false    #禁用HTML解析，Markdown解析器会忽略HTML标签，将其视为普通文本。
+  
 plugins:
   - jekyll-feed
   - jekyll-paginate
