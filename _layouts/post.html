@@ -65,24 +65,77 @@ js: [
 <h3>评论：</h3>
 {% include comment.html %}
 
-<!-- 知识星球 -->
-<div class="program-knight">
-    <p>技术文章推送</p>
-    <img src="/assets/img/zsxq.png">
-    <div>
-        <b>知识星球：风洞安全</b>
-    </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>左右布局示例</title>
+    <style>
+        /* 容器样式 */
+        .container {
+            display: flex; /* 启用Flexbox布局 */
+            justify-content: space-between; /* 左右分布 */
+            align-items: flex-start; /* 对齐方式 */
+            gap: 20px; /* 左右内容之间的间距 */
+            padding: 20px; /* 容器内边距 */
+        }
 
-<!-- 微信公众号 -->
-<div class="program-knight">
-    <p>软件分享、感悟记录</p>
-    <img src="/assets/img/80cm.jpg" alt="微信搜索公众号: 我亦飃零久" title="微信搜索公众号: 我亦飃零久">
-    <div>
-        <img src="/assets/img/wechat.png" alt="wechat">
-        <b>微信公众号：我亦飃零久</b>
+        /* 左右内容样式 */
+        .left, .right {
+            flex: 1; /* 左右内容平分容器宽度 */
+            background-color: #f9f9f9; /* 背景颜色 */
+            border: 1px solid #ddd; /* 边框样式 */
+            padding: 15px; /* 内边距 */
+            border-radius: 8px; /* 圆角边框 */
+        }
+
+        /* 内容样式 */
+        .program-knight {
+            text-align: center; /* 内容居中对齐 */
+        }
+
+        .program-knight img {
+            max-width: 100%; /* 图片自适应容器宽度 */
+            height: auto;
+            margin: 10px 0; /* 图片上下外边距 */
+        }
+
+        /* 媒体查询：小屏幕设备 */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* 在小屏幕上堆叠显示 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧内容 -->
+        <div class="left">
+            <div class="program-knight">
+                <p>技术文章推送</p>
+                <img src="/assets/img/zsxq.png" alt="知识星球">
+                <div>
+                    <b>知识星球：风洞安全</b>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧内容 -->
+        <div class="right">
+            <div class="program-knight">
+                <p>软件分享、感悟记录</p>
+                <img src="/assets/img/80cm.jpg" alt="微信搜索公众号: 我亦飃零久" title="微信搜索公众号: 我亦飃零久">
+                <div>
+                    <img src="/assets/img/wechat.png" alt="wechat">
+                    <b>微信公众号：我亦飃零久</b>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</body>
+</html>
+
 <!--百度资源自动提交-->
 {% if jekyll.environment == 'production' %}
 <script>
