@@ -27,15 +27,6 @@ valine:
   leancloud_appid: "4XY3DoTJmibNe3rHeAKOxqzl-gzGzoHsz"
   leancloud_appkey: "vjothQHALvgTQF9GrSgj577a"
 
-footer-links:
-  zhihu: 
-  email: 17467976510@qq.com
-  facebook:
-  github: waizha0
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  youtube:
-
 # jekyll 相关配置
 markdown: kramdown
 plugins:
