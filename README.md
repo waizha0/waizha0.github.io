@@ -2,7 +2,7 @@
     <div align="right">
         简体中文 | <a href="README-EN.md">English</a>
     </div>
-    <h1>knightyun.github.io</h1>
+    <h1>waizha0.github.io</h1>
     <p>基于 jekyll 的响应式 Github Pages 个人博客网站</p>
 
 [![license](https://img.shields.io/github/license/knightyun/knightyun.github.io)](https://github.com/knightyun/knightyun.github.io/blob/master/COPYING)
@@ -24,16 +24,16 @@
 
 ## 特性
 
-- 适配移动端与桌面端展示效果 | [预览](https://knightyun.github.io)
-- 个性化自动展示 GitHub 项目 | [预览](https://knightyun.github.io/projects)
-- 文章按类别与标签归档展示 | [预览](https://knightyun.github.io/categories)
-- 支持搜索框，按关键词搜索全站文章 | [预览](https://knightyun.github.io)
-- 文章评论与留言板功能 | [预览](https://knightyun.github.io/message)
-- 生动的 “关于” 页面 | [预览](https://knightyun.github.io/about)
+- 适配移动端与桌面端展示效果 | [预览](https://waizha0.github.io)
+- 个性化自动展示 GitHub 项目 | [预览](https://waizha0.github.io/projects)
+- 文章按类别与标签归档展示 | [预览](https://waizha0.github.io/categories)
+- 支持搜索框，按关键词搜索全站文章 | [预览](https://waizha0.github.io)
+- 文章评论与留言板功能 | [预览](https://waizha0.github.io/message)
+- 生动的 “关于” 页面 | [预览](https://waizha0.github.io/about)
 
 ## 使用
 
-详细搭建教程：[搭建 Github Pages 个人博客网站](https://knightyun.github.io/2018/04/01/github-pages-blog)
+详细搭建教程：[搭建 Github Pages 个人博客网站](https://waizha0.github.io/2018/04/01/github-pages-blog)
 
 jekyll 使用教程：<https://www.jekyll.com.cn/>
 
@@ -80,7 +80,7 @@ theme: jekyll-theme-slate
 
 提交推送代码后，GitHub Pages页面（即博客网站主页）更新较慢，所以推荐搭建本地开发环境，以便调试。
 
-详细教程请见：[安装 jekyll](https://knightyun.github.io/2018/04/01/github-pages-blog#%E5%AE%89%E8%A3%85jekyll-)
+详细教程请见：[安装 jekyll](https://waizha0.github.io/2018/04/01/github-pages-blog#%E5%AE%89%E8%A3%85jekyll-)
 
 配置好依赖后在项目主目录运行：
 ```cmd
