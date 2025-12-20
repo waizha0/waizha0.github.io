@@ -46,15 +46,15 @@ jekyll 使用教程：<https://www.jekyll.com.cn/>
 # 以下为自定义的全局变量，可以在 HTML 文件中引用，
 # 比如代码：<h1>{{ site.title }}</h1> 
 # 将会展示为设定的值，也可以自行添加其他自定义全局变量。
-title: 歪曌的博客 # 网站的标题
+title: 玄晏的博客 # 网站的标题
 description: > # 网站的描述，可能会出现在搜索引擎展示结果中
   基于 jekyll 的 Github Pages 个人博客网站，技术的学习、总结、分享与提升
 url: "https://waizha0.github.io" # 网站地址
 github_repo: waizha0/waizha0.github.io
 github_profile: "https://github.com/waizha0" # GitHub 个人主页
-user: "歪曌" # 用于侧栏展示的名字
-user_email: "1746797651@qq.com" # 侧栏展示的联系方式
-paginate: 5 # 主页展示的博客文章数量
+user: "玄晏" # 用于侧栏展示的名字
+user_email: " " # 侧栏展示的联系方式
+paginate: 10 # 主页展示的博客文章数量
 
 # jekyll 相关配置
 markdown: kramdown
